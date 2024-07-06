@@ -5,7 +5,7 @@ import { increment,decrement,reset } from "./counter.action";
     count:number;
  }
  export const initialCounterState: CounterState={
-    count:0
+    count:7
  }
  export const counterReducer=createReducer(
     initialCounterState,
